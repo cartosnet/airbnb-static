@@ -3,10 +3,44 @@
   color:white;
 }
 
-
 .footer p {
   font-size: 13px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0px;
 }
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.share-links {
+ flex: 0 0 30%;
+}
+
+.flexbox-item {
+  flex: 0 0 30%;
+}
+
+
+.share-link {
+  padding-right: 12px;
+}
+
+.share-links{
+  font-size: 30px;
+  padding: 15px;
+  color: #CCCCCC;
+}
+
+.share-links a{
+  color: #CCCCCC;
+}
+
+.share-links a:hover{
+  color: #FFFF00;
+}
+
